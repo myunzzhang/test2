@@ -87,8 +87,8 @@ body {
 
 .world .stage .wall-front-a .wall-content h2 {
     position: absolute;
-    left: 275px;
-    bottom: 55px;
+    left: 450px;
+    bottom: 100px;
     font-size: 60px;
     font-family: 'Gamja Flower', cursive;
     text-transform: uppercase;
@@ -98,10 +98,10 @@ body {
 
 .world .stage .wall-front-a .wall-content img {
     position: absolute;
-    left: 332px;
+    left: 500px;
     top: 50px;
-    width: 415px;
-    height: 450px;
+    width: 500px;
+    height: 490px;
 }
 
 /* //2 */
@@ -136,7 +136,7 @@ body {
 
 .world .stage .wall-front-b .wall-content h3 {
     position: absolute;
-    left: 308px;
+    left: 480px;
     bottom: 60px;
     font-size: 40px;
     font-family: 'Gamja Flower', cursive;
@@ -160,40 +160,40 @@ body {
 
 .world .stage .wall-front-c .wall-content .img {
     position: absolute;
-    right: 40px;
+    right: 60px;
     top: 140px
 }
 
 .world .stage .wall-front-c .wall-content .img img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .world .stage .wall-front-c .wall-content .img2 {
     position: absolute;
-    right: 40px;
-    top: 320px
+    right: 60px;
+    top: 400px
 }
 
 .world .stage .wall-front-c .wall-content .img2 img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .world .stage .wall-front-c .wall-content .video  {
     position: absolute;
-    left: 40px;
-    top: 80px;
+    left: 60px;
+    top: 130px;
 }
 
 .world .stage .wall-front-c .wall-content .video video {
-    width: 300px;
-    height: 450px;
+    width: 400px;
+    height: 550px;
 }
 .world .stage .wall-front-c .wall-content h3 {
     position: absolute;
-    right: 150px;
-    bottom: 60px;
+    right: 250px;
+    bottom: 100px;
     font-family: 'Gamja Flower', cursive;
     font-size: 30px;
 }
@@ -212,7 +212,15 @@ body {
     font-family: 'Gamja Flower', cursive;
 }
 
-
+.world .stage .wall-front-d .wall-content .video {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.world .stage .wall-front-d .wall-content .video video {
+    width: 1000px;
+    height: 520px;
+}
 
 ::-webkit-scrollbar {
     display: none;
