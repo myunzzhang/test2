@@ -1,0 +1,219 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Kablammo&display=swap');
+
+/* font-family: 'Gamja Flower', cursive;
+font-family: 'Kablammo', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    height: 500vh;
+    background-color: #000;
+}
+
+.world {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    perspective: 1000px;
+}
+
+.world .stage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    transform-style: preserve-3d;
+}
+
+.world .stage .house {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    transform-style: preserve-3d;
+    transform: translateZ(-490vw);
+}
+
+.world .stage .wall {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #222222;
+
+}
+
+.world .stage .wall-left {
+    width: 1000vw;
+    /*  background-color: #3282B8; */
+    background: url(img/train3.jpg);
+    transform: rotateY(90deg) translateZ(-400vw);
+}
+
+.world .stage .wall-right {
+    width: 1000vw;
+    background: url(img/train3.jpg);
+    transform: rotateY(90deg) translateZ(-500vw);
+}
+
+.world .stage .wall-front {}
+
+
+/* //1 */
+
+.world .stage .wall-front-a {
+    transform: translateZ(300vw);
+
+}
+
+.world .stage .wall-front-a .wall-content {}
+
+.world .stage .wall-front-a .wall-content h2 {
+    position: absolute;
+    left: 275px;
+    bottom: 55px;
+    font-size: 60px;
+    font-family: 'Gamja Flower', cursive;
+    text-transform: uppercase;
+    
+
+}
+
+.world .stage .wall-front-a .wall-content img {
+    position: absolute;
+    left: 332px;
+    top: 50px;
+    width: 415px;
+    height: 450px;
+}
+
+/* //2 */
+
+
+.world .stage .wall-front-b {
+    transform: translateZ(50vw);
+
+}
+
+.world .stage .wall-front-b .wall-content h2 {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    font-size: 40px;
+    font-family: 'Gamja Flower', cursive;
+
+}
+
+.world .stage .wall-front-b .wall-content .imgs {
+    position: absolute;
+    left: 0;
+    top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.world .stage .wall-front-b .wall-content .imgs>img {
+    width: 22.5%;
+
+}
+
+.world .stage .wall-front-b .wall-content h3 {
+    position: absolute;
+    left: 308px;
+    bottom: 60px;
+    font-size: 40px;
+    font-family: 'Gamja Flower', cursive;
+
+}
+
+/* //3 */
+
+.world .stage .wall-front-c {
+    transform: translateZ(-200vw);
+}
+
+.world .stage .wall-front-c .wall-content {}
+.world .stage .wall-front-c .wall-content h2 {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    font-size: 40px;
+    font-family: 'Gamja Flower', cursive;
+}
+
+.world .stage .wall-front-c .wall-content .img {
+    position: absolute;
+    right: 40px;
+    top: 140px
+}
+
+.world .stage .wall-front-c .wall-content .img img{
+    width: 150px;
+    height: 150px;
+}
+
+.world .stage .wall-front-c .wall-content .img2 {
+    position: absolute;
+    right: 40px;
+    top: 320px
+}
+
+.world .stage .wall-front-c .wall-content .img2 img{
+    width: 150px;
+    height: 150px;
+}
+
+.world .stage .wall-front-c .wall-content .video  {
+    position: absolute;
+    left: 40px;
+    top: 80px;
+}
+
+.world .stage .wall-front-c .wall-content .video video {
+    width: 300px;
+    height: 450px;
+}
+.world .stage .wall-front-c .wall-content h3 {
+    position: absolute;
+    right: 150px;
+    bottom: 60px;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 30px;
+}
+
+/* //4 */
+.world .stage .wall-front-d {
+    transform: translateZ(-500vw);
+}
+
+.world .stage .wall-front-d .wall-content {}
+.world .stage .wall-front-d .wall-content h2 {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    font-size: 40px;
+    font-family: 'Gamja Flower', cursive;
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
